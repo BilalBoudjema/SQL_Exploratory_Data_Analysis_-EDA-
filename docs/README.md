@@ -81,7 +81,7 @@ SQL-Data-Analytics-Project/
 
 
 ## 🛠️ How to Use
-
+  
 1. Clone the repository to your local machine using Git:
    
 2. Open the SQL Server Management Studio (SSMS) and connect to your SQL Server instance.
@@ -93,7 +93,7 @@ SQL-Data-Analytics-Project/
 5. Modify or customize the queries based on your specific use case or database schema.
 
 ## ✅ Conclusion
-
+ 
 This project serves as a valuable resource for SQL-based data exploration and analytics. It provides essential scripts for handling a variety of business intelligence tasks such as ranking, segmentation, cumulative analysis, and more. By leveraging these scripts, data analysts and BI professionals can streamline their data exploration process and gain valuable insights quickly.
 
 ---
