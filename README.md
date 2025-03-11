@@ -55,29 +55,30 @@ Each SQL script is categorized into different types of analysis, including:
 
 SQL-Data-Analytics-Project/
 │
-├── 📁 scripts/
-│   ├── 00_init_database.sql            # Initializes the database
-│   ├── 01_database_exploration.sql     # Explores the database structure
-│   ├── 02_dimensions_exploration.sql   # Explores dimensions (e.g., products, customers)
-│   ├── 03_date_range_exploration.sql   # Explores date ranges in the data
-│   ├── 04_measures_exploration.sql     # Explores key measures (e.g., sales, quantities)
-│   ├── 05_magnitude_analysis.sql       # Magnitude analysis (total sales, etc.)
-│   ├── 06_ranking_analysis.sql         # Ranking analysis (top products, customers by performance)
-│   ├── 07_change_over_time_analysis.sql # Change over time analysis
-│   └── 08_cumulative_analysis.sql      # Cumulative analysis (running totals)
+├── 📁 scripts/                             # SQL scripts for data analysis
+│   ├── 00_init_database.sql               # Initializes the database
+│   ├── 01_database_exploration.sql        # Explores the database structure
+│   ├── 02_dimensions_exploration.sql      # Explores dimensions (e.g., products, customers)
+│   ├── 03_date_range_exploration.sql      # Explores date ranges in the data
+│   ├── 04_measures_exploration.sql        # Explores key measures (e.g., sales, quantities)
+│   ├── 05_magnitude_analysis.sql          # Magnitude analysis (total sales, etc.)
+│   ├── 06_ranking_analysis.sql            # Ranking analysis (top products, customers by performance)
+│   ├── 07_change_over_time_analysis.sql  # Change over time analysis
+│   └── 08_cumulative_analysis.sql         # Cumulative analysis (running totals)
 │
-├── 📁 data/
-│   ├── 📊 gold.fact_sales.csv               # Sales data
-│   ├── 📈 gold.dim_customers.csv            # Customer data
-│   └── 🗂️ gold.dim_products.csv            # Product data
+├── 📁 data/                               # Data files
+│   ├── 📊 gold.fact_sales.csv             # Sales data
+│   ├── 📈 gold.dim_customers.csv          # Customer data
+│   └── 🗂️ gold.dim_products.csv          # Product data
 │
-├── 📁 docs/
-│   └── 📖 README.md                   # Project documentation
+├── 📁 docs/                               # Project documentation
+│   └── 📖 README.md                      # Project documentation
 │
-├── 📁 resources/
+├── 📁 resources/                          # Project resources
 │   ├── 🛠️ SQL-Server-Express-Installation-Guide.pdf # SQL Server Express installation guide
-│   ├── 🖥️ SSMS_Installation_Guide.pdf        # SSMS installation guide
-│   └── 🔗 GitHub_Repository_Creation_Guide.pdf # GitHub repository creation guide
+│   ├── 🖥️ SSMS_Installation_Guide.pdf          # SSMS installation guide
+│   └── 🔗 GitHub_Repository_Creation_Guide.pdf   # GitHub repository creation guide
+
 
 
 ## 🛠️ How to Use
