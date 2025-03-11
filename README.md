@@ -53,9 +53,8 @@ Each SQL script is categorized into different types of analysis, including:
 
 ## 🗂️ Project Structure
 
-SQL-Data-Analytics-Project/
-│
-├── 📁 scripts/                             # SQL scripts for data analysis
+```
+├── 📁 scripts/                             # SQL scripts for data exploration and analysis
 │   ├── 00_init_database.sql               # Initializes the database
 │   ├── 01_database_exploration.sql        # Explores the database structure
 │   ├── 02_dimensions_exploration.sql      # Explores dimensions (e.g., products, customers)
@@ -65,20 +64,17 @@ SQL-Data-Analytics-Project/
 │   ├── 06_ranking_analysis.sql            # Ranking analysis (top products, customers by performance)
 │   ├── 07_change_over_time_analysis.sql  # Change over time analysis
 │   └── 08_cumulative_analysis.sql         # Cumulative analysis (running totals)
-│
-├── 📁 data/                               # Data files
+├── 📁 data/                               # Raw and cleaned data
 │   ├── 📊 gold.fact_sales.csv             # Sales data
 │   ├── 📈 gold.dim_customers.csv          # Customer data
 │   └── 🗂️ gold.dim_products.csv          # Product data
-│
 ├── 📁 docs/                               # Project documentation
-│   └── 📖 README.md                      # Project documentation
-│
-├── 📁 resources/                          # Project resources
-│   ├── 🛠️ SQL-Server-Express-Installation-Guide.pdf # SQL Server Express installation guide
+│   └── 📖 README.md                      # Project documentation and overview
+├── 📁 resources/                          # Resources for environment setup
+│   ├── 🛠️ SQL-Server-Express-Installation-Guide.pdf   # SQL Server Express installation guide
 │   ├── 🖥️ SSMS_Installation_Guide.pdf          # SSMS installation guide
 │   └── 🔗 GitHub_Repository_Creation_Guide.pdf   # GitHub repository creation guide
-
+```
 
 
 ## 🛠️ How to Use
